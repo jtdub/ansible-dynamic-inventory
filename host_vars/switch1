@@ -1,0 +1,8 @@
+---
+groups:
+- os_ios
+- switches
+
+interfaces:
+  Vlan1:
+    ipv4_address: 10.0.0.2 255.255.255.0
