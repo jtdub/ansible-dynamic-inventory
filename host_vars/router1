@@ -1,0 +1,8 @@
+---
+groups:
+- os_ios
+- routers
+
+interfaces:
+  FastEthernet0:
+    ipv4_address: 10.0.0.1 255.255.255.0

@@ -1,0 +1,8 @@
+---
+- hosts: all
+  gather_facts: False
+  connection: local
+
+  tasks:
+  - name: DISPLAY INVENTORY VARIABLES
+    debug: var=hostvars
