@@ -22,7 +22,7 @@ class Inventory(object):
 
     def arguments(self):
         parser = argparse.ArgumentParser(
-            description='Ansible Inventory for Rackspace DNS Infrastructure')
+            description='Dynamic Ansible Inventory')
         parser.add_argument('--list',
                             help='List all devices in inventory',
                             nargs='?',
