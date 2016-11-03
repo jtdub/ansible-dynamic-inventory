@@ -70,7 +70,7 @@ Here is what executing the inventory.py script independently renders:
 $ ./inventory.py --help
 usage: inventory.py [-h] [--list [LIST]] [--host HOST] [-p [PRETTY]]
 
-Ansible Inventory for Rackspace DNS Infrastructure
+Dynamic Ansible Inventory
 
 optional arguments:
   -h, --help            show this help message and exit
